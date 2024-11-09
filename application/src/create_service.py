@@ -17,6 +17,8 @@ with initialize(version_base=None, config_path='../../config'):
     MODEL_NAME = config.model.name
 
 
+
+
 class Employee(BaseModel):
     City: str = 'Pune'
     PaymentTier: int = 1
